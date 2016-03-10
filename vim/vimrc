@@ -1,0 +1,68 @@
+set nocompatible                                " be iMproved, required
+filetype off                                    " required
+
+" plugins
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'                     " Git wrapper
+Plugin 'kien/ctrlp.vim'
+Plugin 'mileszs/ack.vim'                        " search tool
+Plugin 'scrooloose/nerdtree'
+Plugin 'bling/vim-airline'                      " status line
+Plugin 'tpope/vim-surround'                     " quotes, brackets etc.
+Plugin 'shougo/neocomplete.vim'                 " keyword completion
+Plugin 'scrooloose/syntastic'                   " syntax checking
+Plugin 'airblade/vim-gitgutter'
+
+call vundle#end()                               " required
+filetype plugin indent on                       " required
+
+" general
+set encoding=utf-8
+set guifont=Monaco:h12                          " font & size
+colorscheme monokai	                        " theme
+set number                                      " line number
+set cursorline                                  " current line
+
+" whitespace, indentation
+set backspace=indent,eol,start
+set autoindent
+set expandtab
+set smarttab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set list
+set listchars=tab:│\ ,trail:•,extends:❯,precedes:❮
+set shiftround
+set linebreak
+let &showbreak='↪ '
+
+" nerdtree
+map <C-n> :NERDTreeToggle<CR>                   " CTRL+n
+autocmd vimenter * NERDTree                     " open when starts up
+set guioptions-=L                               " disable scroll bar
+let g:NERDTreeWinSize = 40                      " width
+
+" Ack
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+
+" airline
+let g:airline_left_sep = ''                     " disable left separator
+let g:airline_right_sep = ''                    " disable right separator
+
+" neocomplete
+let g:neocomplete#enable_at_startup = 1         " open when starts up
+
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
