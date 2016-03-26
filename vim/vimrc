@@ -16,6 +16,7 @@ Plugin 'shougo/neocomplete.vim'                 " keyword completion
 Plugin 'scrooloose/syntastic'                   " syntax checking
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdcommenter'               " comments
+Plugin 'majutsushi/tagbar'                      " structure overview
 
 call vundle#end()                               " required
 filetype plugin indent on                       " required
@@ -69,3 +70,6 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 " nerdcommenter
 let NERDSpaceDelims = 1                         " add space after symbol comment
+
+" tagbar
+nmap <F8> :TagbarToggle<CR>
