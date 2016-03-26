@@ -42,6 +42,7 @@ set listchars=tab:│\ ,trail:•,extends:❯,precedes:❮
 set shiftround
 set linebreak
 let &showbreak='↪ '
+autocmd BufWritePre * :%s/\s\+$//e              " remove trailing spaces on save
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>                   " CTRL+n
