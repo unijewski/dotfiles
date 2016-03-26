@@ -25,21 +25,16 @@ filetype plugin indent on                       " required
 " general
 set encoding=utf-8
 set guifont=Monaco:h12                          " font & size
-colorscheme monokai	                        " theme
+colorscheme monokai                             " theme
 set number                                      " line number
 set cursorline                                  " current line
 
 " whitespace, indentation
 set backspace=indent,eol,start
 set autoindent
-set expandtab
-set smarttab
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
-set list
+set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab shiftround
+set list                                        " make whitespaces visible
 set listchars=tab:│\ ,trail:•,extends:❯,precedes:❮
-set shiftround
 set linebreak
 let &showbreak='↪ '
 autocmd BufWritePre * :%s/\s\+$//e              " remove trailing spaces on save
@@ -49,7 +44,7 @@ nmap <C-Tab> :tabnext<CR>
 nmap <C-S-Tab> :tabprevious<CR>
 
 " nerdtree
-map <C-n> :NERDTreeToggle<CR>                   " CTRL+n
+map <C-n> :NERDTreeToggle<CR>
 autocmd vimenter * NERDTree                     " open when starts up
 set guioptions-=L                               " disable scroll bar
 let g:NERDTreeWinSize = 40                      " width
