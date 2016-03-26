@@ -44,6 +44,10 @@ set linebreak
 let &showbreak='↪ '
 autocmd BufWritePre * :%s/\s\+$//e              " remove trailing spaces on save
 
+" mappings
+nmap <C-Tab> :tabnext<CR>
+nmap <C-S-Tab> :tabprevious<CR>
+
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>                   " CTRL+n
 autocmd vimenter * NERDTree                     " open when starts up
