@@ -28,6 +28,8 @@ set guifont=Monaco:h12                          " font & size
 colorscheme monokai                             " theme
 set number                                      " line number
 set cursorline                                  " current line
+set autoread
+set colorcolumn=100                             " vertical line
 
 " whitespace, indentation
 set backspace=indent,eol,start
