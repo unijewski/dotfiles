@@ -1,45 +1,45 @@
-set nocompatible                                " be iMproved, required
-filetype off                                    " required
+set nocompatible                                      " be iMproved, required
+filetype off                                          " required
 
 " plugins
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-fugitive'                     " Git wrapper
+Plugin 'tpope/vim-fugitive'                           " Git wrapper
 Plugin 'kien/ctrlp.vim'
-Plugin 'mileszs/ack.vim'                        " search tool
+Plugin 'mileszs/ack.vim'                              " search tool
 Plugin 'scrooloose/nerdtree'
-Plugin 'bling/vim-airline'                      " status line
-Plugin 'tpope/vim-surround'                     " quotes, brackets etc.
-Plugin 'shougo/neocomplete.vim'                 " keyword completion
-Plugin 'scrooloose/syntastic'                   " syntax checking
+Plugin 'bling/vim-airline'                            " status line
+Plugin 'tpope/vim-surround'                           " quotes, brackets etc.
+Plugin 'shougo/neocomplete.vim'                       " keyword completion
+Plugin 'scrooloose/syntastic'                         " syntax checking
 Plugin 'airblade/vim-gitgutter'
-Plugin 'scrooloose/nerdcommenter'               " comments
-Plugin 'majutsushi/tagbar'                      " structure overview
-Plugin 'terryma/vim-multiple-cursors'           " faster selecting
+Plugin 'scrooloose/nerdcommenter'                     " comments
+Plugin 'majutsushi/tagbar'                            " structure overview
+Plugin 'terryma/vim-multiple-cursors'                 " faster selecting
 
-call vundle#end()                               " required
-filetype plugin indent on                       " required
+call vundle#end()                                     " required
+filetype plugin indent on                             " required
 
 " general
 set encoding=utf-8
-set guifont=Monaco:h12                          " font & size
-colorscheme monokai                             " theme
-set number                                      " line number
-set cursorline                                  " current line
+set guifont=Monaco:h12                                " font & size
+colorscheme monokai                                   " theme
+set number                                            " line number
+set cursorline                                        " current line
 set autoread
-set colorcolumn=100                             " vertical line
+set colorcolumn=100                                   " vertical line
 
 " whitespace, indentation
 set backspace=indent,eol,start
 set autoindent
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab shiftround
-set list                                        " make whitespaces visible
+set list                                              " make whitespaces visible
 set listchars=tab:│\ ,trail:•,extends:❯,precedes:❮
 set linebreak
 let &showbreak='↪ '
-autocmd BufWritePre * :%s/\s\+$//e              " remove trailing spaces on save
+autocmd BufWritePre * :%s/\s\+$//e                    " remove trailing spaces on save
 
 " mappings
 nmap <C-Tab> :tabnext<CR>
@@ -47,9 +47,9 @@ nmap <C-S-Tab> :tabprevious<CR>
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
-autocmd vimenter * NERDTree                     " open when starts up
-set guioptions-=L                               " disable scroll bar
-let g:NERDTreeWinSize = 40                      " width
+autocmd vimenter * NERDTree                           " open when starts up
+set guioptions-=L                                     " disable scroll bar
+let g:NERDTreeWinSize = 40                            " width
 
 " Ack
 if executable('ag')
@@ -57,11 +57,11 @@ if executable('ag')
 endif
 
 " airline
-let g:airline_left_sep = ''                     " disable left separator
-let g:airline_right_sep = ''                    " disable right separator
+let g:airline_left_sep = ''                           " disable left separator
+let g:airline_right_sep = ''                          " disable right separator
 
 " neocomplete
-let g:neocomplete#enable_at_startup = 1         " open when starts up
+let g:neocomplete#enable_at_startup = 1               " open when starts up
 
 " syntastic
 set statusline+=%#warningmsg#
@@ -74,7 +74,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_ruby_checkers = ['rubocop', 'mri']
 
 " nerdcommenter
-let NERDSpaceDelims = 1                         " add space after symbol comment
+let NERDSpaceDelims = 1                               " add 1 space after comment symbol
 
 " tagbar
 nmap <F8> :TagbarToggle<CR>
