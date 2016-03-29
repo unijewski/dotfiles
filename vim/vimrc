@@ -18,6 +18,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdcommenter'                     " comments
 Plugin 'majutsushi/tagbar'                            " structure overview
 Plugin 'terryma/vim-multiple-cursors'                 " faster selecting
+Plugin 'mxw/vim-jsx'
 
 call vundle#end()                                     " required
 filetype plugin indent on                             " required
@@ -111,3 +112,6 @@ nmap <F8> :TagbarToggle<CR>
 
 " multiple cursors
 let g:multi_cursor_next_key = '<C-d>'
+
+" jsx
+let g:jsx_ext_required = 0
