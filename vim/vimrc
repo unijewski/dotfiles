@@ -10,7 +10,7 @@ Plugin 'tpope/vim-fugitive'                           " Git wrapper
 Plugin 'kien/ctrlp.vim'
 Plugin 'mileszs/ack.vim'                              " search tool
 Plugin 'scrooloose/nerdtree'
-Plugin 'bling/vim-airline'                            " status line
+Plugin 'itchyny/lightline.vim'                        " status line
 Plugin 'tpope/vim-surround'                           " quotes, brackets etc.
 Plugin 'shougo/neocomplete.vim'                       " keyword completion
 Plugin 'scrooloose/syntastic'                         " syntax checking
@@ -56,9 +56,39 @@ if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
 
-" airline
-let g:airline_left_sep = ''                           " disable left separator
-let g:airline_right_sep = ''                          " disable right separator
+" lightline
+let g:lightline = {
+  \ 'colorscheme': 'wombat',
+  \ 'active': {
+  \   'left': [ [ 'mode', 'paste' ],
+  \             [ 'fugitive', 'filename', 'modified' ] ]
+  \ },
+  \ 'component_function': {
+  \   'modified': 'LightLineModified',
+  \   'fugitive': 'LightLineFugitive',
+  \   'filename': 'LightLineFilename'
+  \ }
+  \ }
+
+function! LightLineModified()
+  if &filetype == "help"
+    return ""
+  elseif &modified
+    return "+"
+  elseif &modifiable
+    return ""
+  else
+    return ""
+  endif
+endfunction
+
+function! LightLineFugitive()
+  return exists('*fugitive#head') ? fugitive#head() : ''
+endfunction
+
+function! LightLineFilename()
+  return expand('%')
+endfunction
 
 " neocomplete
 let g:neocomplete#enable_at_startup = 1               " open when starts up
