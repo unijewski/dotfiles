@@ -17,6 +17,10 @@ ln -sfv "$DOTFILES_DIR/vim/vimrc" "$HOME/.vimrc"
 ln -sfv "$DOTFILES_DIR/vim/colors" "$HOME/.vim/colors"
 
 # Package managers & packages
-# . "$DOTFILES_DIR/install/brew.sh"
+. "$DOTFILES_DIR/install/brew.sh"
+
+if [ "$(uname)" == "Darwin" ]; then
+  . "$DOTFILES_DIR/install/brew-cask.sh"
+fi
 
 echo "Done!"
