@@ -13,7 +13,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'itchyny/lightline.vim'                        " status line
 Plugin 'tpope/vim-surround'                           " quotes, brackets etc.
 Plugin 'shougo/neocomplete.vim'                       " keyword completion
-Plugin 'scrooloose/syntastic'                         " syntax checking
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdcommenter'                     " comments
 Plugin 'majutsushi/tagbar'                            " structure overview
@@ -95,16 +94,6 @@ endfunction
 
 " neocomplete
 let g:neocomplete#enable_at_startup = 1               " open when starts up
-
-" syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_ruby_checkers = ['rubocop', 'mri']
 
 " nerdcommenter
 let NERDSpaceDelims = 1                               " add 1 space after comment symbol
