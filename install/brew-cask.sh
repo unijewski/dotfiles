@@ -9,7 +9,6 @@ brew tap caskroom/versions
 apps=(
   java
   spectacle
-  flux
   iterm2
 )
 
