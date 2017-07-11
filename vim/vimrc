@@ -105,3 +105,8 @@ let g:multi_cursor_next_key = '<C-d>'
 
 " jsx
 let g:jsx_ext_required = 0
+
+" syntax highlighting
+if !exists("g:syntax_on")
+  syntax enable
+endif
