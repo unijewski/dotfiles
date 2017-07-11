@@ -49,7 +49,6 @@ imap jj <Esc>
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
-autocmd vimenter * NERDTree                           " open when starts up
 set guioptions-=L                                     " disable scroll bar
 let g:NERDTreeWinSize = 40                            " width
 
