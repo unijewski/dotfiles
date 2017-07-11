@@ -23,4 +23,8 @@ ln -sfv "$DOTFILES_DIR/zsh/zshrc" "$HOME/.zshrc"
 ln -sfv "$DOTFILES_DIR/vim/vimrc" "$HOME/.vimrc"
 ln -sfv "$DOTFILES_DIR/vim/colors" "$HOME/.vim/colors"
 
+# rvm
+command curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+command curl -sSL https://get.rvm.io | bash -s stable
+
 echo "Done!"
