@@ -26,6 +26,7 @@ apps=(
   elasticsearch
   ffmpeg
   git
+  gpg2
   htop
   imagemagick
   mongodb
@@ -33,9 +34,9 @@ apps=(
   terminal-notifier
   postgresql
   openssl
-  rbenv
   python
   redis
+  rvm
   tree
 )
 
