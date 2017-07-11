@@ -28,7 +28,6 @@ apps=(
   git
   htop
   imagemagick
-  macvim --with-lua
   mongodb
   phantomjs
   terminal-notifier
