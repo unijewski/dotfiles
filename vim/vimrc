@@ -45,7 +45,7 @@ autocmd BufWritePre * :%s/\s\+$//e                    " remove trailing spaces o
 " mappings
 nmap <C-Tab> :tabnext<CR>
 nmap <C-S-Tab> :tabprevious<CR>
-imap jj <Esc>
+imap jk <Esc>
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
