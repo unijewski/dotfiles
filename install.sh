@@ -14,12 +14,12 @@ if [ "$(uname)" == "Darwin" ]; then
   . "$DOTFILES_DIR/install/brew-cask.sh"
   . "$DOTFILES_DIR/install/ruby.sh"
   . "$DOTFILES_DIR/install/vim.sh"
+  . "$DOTFILES_DIR/install/zsh.sh"
 fi
 
 # Bunch of symlinks
 ln -sfv "$DOTFILES_DIR/git/gitconfig" "$HOME/.gitconfig"
 ln -sfv "$DOTFILES_DIR/git/gitignore_global" "$HOME/.gitignore_global"
-ln -sfv "$DOTFILES_DIR/zsh/zshrc" "$HOME/.zshrc"
 ln -sfv "$DOTFILES_DIR/vim/vimrc" "$HOME/.vimrc"
 ln -sfv "$DOTFILES_DIR/vim/colors" "$HOME/.vim/colors"
 
