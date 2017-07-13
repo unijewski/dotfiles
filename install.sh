@@ -14,6 +14,7 @@ mkdir -p "$HOME/.vim"
 
 if [ "$(uname)" == "Darwin" ]; then
   . "$DOTFILES_DIR/install/brew-cask.sh"
+  . "$DOTFILES_DIR/install/ruby.sh"
 fi
 
 # Bunch of symlinks
@@ -22,9 +23,5 @@ ln -sfv "$DOTFILES_DIR/git/gitignore_global" "$HOME/.gitignore_global"
 ln -sfv "$DOTFILES_DIR/zsh/zshrc" "$HOME/.zshrc"
 ln -sfv "$DOTFILES_DIR/vim/vimrc" "$HOME/.vimrc"
 ln -sfv "$DOTFILES_DIR/vim/colors" "$HOME/.vim/colors"
-
-# rvm
-command curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
-command curl -sSL https://get.rvm.io | bash -s stable
 
 echo "Done!"
