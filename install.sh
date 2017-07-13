@@ -20,7 +20,5 @@ fi
 # Bunch of symlinks
 ln -sfv "$DOTFILES_DIR/git/gitconfig" "$HOME/.gitconfig"
 ln -sfv "$DOTFILES_DIR/git/gitignore_global" "$HOME/.gitignore_global"
-ln -sfv "$DOTFILES_DIR/vim/vimrc" "$HOME/.vimrc"
-ln -sfv "$DOTFILES_DIR/vim/colors" "$HOME/.vim/colors"
 
 echo "Done!"
