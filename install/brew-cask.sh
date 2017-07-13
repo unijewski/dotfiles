@@ -7,9 +7,9 @@ brew tap caskroom/versions
 
 # Install packages
 apps=(
+  iterm2
   java
   spectacle
-  iterm2
 )
 
 brew cask install "${apps[@]}"
