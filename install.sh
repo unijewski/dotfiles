@@ -21,4 +21,7 @@ fi
 ln -sfv "$DOTFILES_DIR/git/gitconfig" "$HOME/.gitconfig"
 ln -sfv "$DOTFILES_DIR/git/gitignore_global" "$HOME/.gitignore_global"
 
+# Reload settings
+source ~/.zshrc
+
 echo "Done!"
