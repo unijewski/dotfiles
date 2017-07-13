@@ -1,5 +1,5 @@
 function get_pwd {
-    echo "${PWD/$HOME/~}"
+  echo "${PWD/$HOME/~}"
 }
 
 local ret_status="%(?:%{$fg_bold[blue]%}➜ :%{$fg_bold[red]%}➜ %s)"
