@@ -26,7 +26,6 @@ apps=(
   elasticsearch
   ffmpeg
   git
-  gpg2
   htop
   imagemagick
   mongodb
