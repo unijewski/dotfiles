@@ -11,5 +11,4 @@ source $ZSH/oh-my-zsh.sh
 
 export TERM=xterm-256color
 export BUNDLER_EDITOR="atom"
-export R_HOME="/usr/local/Cellar/r/3.2.3/R.framework/Resources"
 export VIMRC="~/.vimrc"
