@@ -7,14 +7,13 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Update dotfiles itself first
 [ -d "$DOTFILES_DIR/.git" ] && git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master
 
-mkdir -p "$HOME/.vim"
-
 # Package managers & packages
 . "$DOTFILES_DIR/install/brew.sh"
 
 if [ "$(uname)" == "Darwin" ]; then
   . "$DOTFILES_DIR/install/brew-cask.sh"
   . "$DOTFILES_DIR/install/ruby.sh"
+  . "$DOTFILES_DIR/install/vim.sh"
 fi
 
 # Bunch of symlinks
