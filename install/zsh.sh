@@ -1,3 +1,3 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ln -sfv "$DOTFILES_DIR/zsh/zshrc" "$HOME/.zshrc"
-ln -sfv "$DOTFILES_DIR/zsh/unijewski.zsh-theme" "$HOME/.oh-my-zsh/themes/unijewski.zsh-theme"
+ln -sfv "$DOTFILES_DIR/zsh/themes/unijewski.zsh-theme" "$HOME/.oh-my-zsh/themes/unijewski.zsh-theme"
