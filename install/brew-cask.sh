@@ -7,6 +7,7 @@ brew tap caskroom/versions
 
 # Install packages
 apps=(
+  atom
   iterm2
   java
   spectacle
