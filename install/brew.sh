@@ -12,7 +12,6 @@ then
   ruby -e "$( curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install )"
 fi
 
-brew tap homebrew/versions
 brew tap homebrew/services
 
 # Make sure we’re using the latest Homebrew
