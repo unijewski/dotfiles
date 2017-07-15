@@ -9,15 +9,15 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Package managers & packages
 . "$DOTFILES_DIR/install/brew.sh"
+. "$DOTFILES_DIR/install/brew-cask.sh"
 
-if [ "$(uname)" == "Darwin" ]; then
-  . "$DOTFILES_DIR/install/brew-cask.sh"
-  . "$DOTFILES_DIR/install/ruby.sh"
-  . "$DOTFILES_DIR/install/vim.sh"
-  . "$DOTFILES_DIR/install/zsh.sh"
-fi
+# Others
+. "$DOTFILES_DIR/install/iterm.sh"
+. "$DOTFILES_DIR/install/ruby.sh"
+. "$DOTFILES_DIR/install/vim.sh"
+. "$DOTFILES_DIR/install/zsh.sh"
 
-# Bunch of symlinks
+# Git symlinks
 ln -sfv "$DOTFILES_DIR/git/gitconfig" "$HOME/.gitconfig"
 ln -sfv "$DOTFILES_DIR/git/gitignore_global" "$HOME/.gitignore_global"
 
