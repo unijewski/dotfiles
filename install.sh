@@ -13,10 +13,10 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Others
 . "$DOTFILES_DIR/install/iterm.sh"
+. "$DOTFILES_DIR/install/zsh.sh"
 . "$DOTFILES_DIR/install/ruby.sh"
 . "$DOTFILES_DIR/install/atom.sh"
 . "$DOTFILES_DIR/install/vim.sh"
-. "$DOTFILES_DIR/install/zsh.sh"
 
 # Git symlinks
 ln -sfv "$DOTFILES_DIR/git/gitconfig" "$HOME/.gitconfig"
