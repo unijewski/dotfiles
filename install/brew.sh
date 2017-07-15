@@ -18,7 +18,7 @@ brew tap homebrew/services
 brew update
 
 # Upgrade any already-installed formulas
-brew upgrade --all
+brew upgrade
 
 # Install the Homebrew packages
 apps=(
