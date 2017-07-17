@@ -22,6 +22,7 @@ brew upgrade
 
 # Install the Homebrew packages
 apps=(
+  openssl
   elasticsearch
   ffmpeg
   git
@@ -31,7 +32,6 @@ apps=(
   phantomjs
   terminal-notifier
   postgresql
-  openssl
   python
   redis
   rvm
