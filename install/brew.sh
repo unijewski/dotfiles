@@ -34,7 +34,6 @@ apps=(
   postgresql
   python
   redis
-  rvm
   tree
 )
 
