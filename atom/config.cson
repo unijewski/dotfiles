@@ -18,6 +18,8 @@
   "git-blame":
     columnWidth: 290
     showOnlyLastNames: false
+  "linter-haml":
+    executablePath: "/Users/grzegorz/.rvm/gems/ruby-2.4.1/bin/haml-lint"
   "linter-rubocop":
     command: "/Users/grzegorz/.rvm/gems/ruby-2.4.1/bin/rubocop"
   "linter-ui-default": {}
