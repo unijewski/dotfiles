@@ -11,6 +11,8 @@ apps=(
   iterm2
   java
   spectacle
+  github-desktop
+  skype
 )
 
 brew cask install "${apps[@]}"
