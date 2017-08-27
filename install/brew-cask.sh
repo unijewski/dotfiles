@@ -14,6 +14,7 @@ apps=(
   github-desktop
   skype
   spotify
+  vlc
 )
 
 brew cask install "${apps[@]}"
