@@ -1,6 +1,6 @@
 brew install gpg2
 
-curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 curl -sSL https://get.rvm.io | bash -s stable
 
 source ~/.profile
