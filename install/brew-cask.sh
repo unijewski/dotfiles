@@ -13,6 +13,7 @@ apps=(
   spectacle
   github-desktop
   skype
+  spotify
 )
 
 brew cask install "${apps[@]}"
