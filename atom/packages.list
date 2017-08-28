@@ -1,5 +1,6 @@
 busy-signal@1.4.3
 ex-mode@0.15.0
+fold-comments@0.6.0
 git-blame@1.1.1
 increment-selection@0.3.0
 intentions@1.1.2
