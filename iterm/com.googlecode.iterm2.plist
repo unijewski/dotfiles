@@ -409,11 +409,11 @@
 	<key>Hotkey</key>
 	<true/>
 	<key>HotkeyChar</key>
-	<integer>63247</integer>
+	<integer>122</integer>
 	<key>HotkeyCode</key>
-	<integer>111</integer>
+	<integer>6</integer>
 	<key>HotkeyModifiers</key>
-	<integer>8388864</integer>
+	<integer>262401</integer>
 	<key>IRMemory</key>
 	<integer>4</integer>
 	<key>JobName</key>
@@ -457,10 +457,15 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>261 169 918 495 0 0 1440 878 </string>
+	<string>1896 67 796 473 1440 -180 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1 419 1130 452 0 0 1440 878 </string>
+	<string>1443 -138 1914 1013 1440 -180 1920 1058 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1195,6 +1200,8 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>568DD7E9-D1A1-4096-9E29-336A2ACC1331</string>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>525558733.590828</real>
 	<key>OnlyWhenMoreTabs</key>
@@ -1265,7 +1272,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-08-27T20:48:46Z</date>
+	<date>2017-08-31T07:25:31Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
