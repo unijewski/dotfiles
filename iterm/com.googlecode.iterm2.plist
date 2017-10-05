@@ -14,6 +14,8 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
 	<key>AutoHideTmuxClientSession</key>
 	<false/>
 	<key>CheckTestRelease</key>
@@ -465,11 +467,11 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 374 620 392 0 0 1440 878 </string>
+	<string>2090 329 620 392 1440 -180 1920 1058 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>392 227 958 451 0 0 1440 878 </string>
+	<string>1004 169 796 473 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 426 1130 452 0 0 1440 878 </string>
+	<string>0 40 1440 838 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 186 1130 452 0 0 1440 900 </string>
 	<key>New Bookmarks</key>
@@ -1278,7 +1280,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-19T10:19:58Z</date>
+	<date>2017-10-05T16:58:50Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -1325,9 +1327,11 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.0</string>
+	<string>3.1.2</string>
 </dict>
 </plist>
