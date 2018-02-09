@@ -5,7 +5,7 @@ curl -sSL https://get.rvm.io | bash -s stable
 
 source ~/.profile
 
-rvm install 2.4.1
-rvm use 2.4.1 --default
+rvm install 2.4.3
+rvm use 2.4.3 --default
 
 gem install bundler
