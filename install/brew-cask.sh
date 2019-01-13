@@ -17,7 +17,7 @@ apps=(
   spectacle
   spotify
   vlc
-  vscode
+  visual-studio-code
 )
 
 brew cask install "${apps[@]}"
