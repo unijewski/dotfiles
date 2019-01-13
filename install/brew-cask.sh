@@ -8,13 +8,16 @@ brew tap caskroom/versions
 # Install packages
 apps=(
   atom
+  github-desktop
   iterm2
   java
-  spectacle
-  github-desktop
+  keepassxc
   skype
+  slack
+  spectacle
   spotify
   vlc
+  vscode
 )
 
 brew cask install "${apps[@]}"
