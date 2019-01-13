@@ -10,9 +10,11 @@ then
   [ -d "$DOTFILES_DIR/.git" ] && git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master
 fi
 
-# Package managers & packages
+# Package managers
 . "$DOTFILES_DIR/install/brew.sh"
-. "$DOTFILES_DIR/install/brew-cask.sh"
+
+# Apps and packages
+. "$DOTFILES_DIR/install/app-and-libs.sh"
 
 # Others
 . "$DOTFILES_DIR/install/iterm.sh"

@@ -20,6 +20,10 @@ brew update
 # Upgrade any already-installed formulas
 brew upgrade
 
+# Install Caskroom
+brew tap caskroom/cask
+brew tap caskroom/versions
+
 # Install the Homebrew packages
 apps=(
   openssl
