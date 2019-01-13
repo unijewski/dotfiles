@@ -1,11 +1,14 @@
 #!/bin/bash
 
+# Install everything that needs to be first
+brew cask install java8
+brew install git
+
 # Install the Homebrew packages
 apps=(
   openssl
   elasticsearch
   ffmpeg
-  git
   htop
   imagemagick
   mongodb
@@ -26,7 +29,6 @@ apps=(
   atom
   github
   iterm2
-  java8
   keepassxc
   skype
   slack
