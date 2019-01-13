@@ -8,7 +8,7 @@ brew tap caskroom/versions
 # Install packages
 apps=(
   atom
-  github-desktop
+  github
   iterm2
   java
   keepassxc
