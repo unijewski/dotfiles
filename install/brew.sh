@@ -29,7 +29,6 @@ apps=(
   htop
   imagemagick
   mongodb
-  phantomjs
   terminal-notifier
   postgresql
   python
