@@ -30,9 +30,9 @@
     themeColor: "Green"
   "tree-view":
     alwaysOpenExisting: true
-    hideVcsIgnoredFiles: true
   "vim-mode-plus": {}
   "vim-mode-plus-ex-mode":
     notifiedUseExMode: true
   welcome:
     showOnStartup: false
+  whitespace: {}
