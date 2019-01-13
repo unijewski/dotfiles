@@ -10,7 +10,7 @@ apps=(
   atom
   github
   iterm2
-  java
+  java8
   keepassxc
   skype
   slack
