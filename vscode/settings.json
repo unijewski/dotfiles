@@ -1,0 +1,24 @@
+{
+  "workbench.colorTheme": "Monokai",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "vim.insertModeKeyBindings": [
+      {
+          "before": ["j", "k"],
+          "after": ["<Esc>"]
+      }
+  ],
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "editor.rulers": [
+      100
+  ],
+  "files.trimTrailingWhitespace": true,
+  "[ruby]": {
+      "editor.formatOnSave": false
+  },
+  "gitlens.codeLens.enabled": false,
+  "files.insertFinalNewline": true,
+  "window.zoomLevel": 0,
+  "explorer.confirmDragAndDrop": false,
+}%

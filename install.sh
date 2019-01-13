@@ -20,6 +20,7 @@ fi
 . "$DOTFILES_DIR/install/ruby.sh"
 . "$DOTFILES_DIR/install/atom.sh"
 . "$DOTFILES_DIR/install/vim.sh"
+. "$DOTFILES_DIR/install/vscode.sh"
 
 # Git symlinks
 ln -sfv "$DOTFILES_DIR/git/gitconfig" "$HOME/.gitconfig"

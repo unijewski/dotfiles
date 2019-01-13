@@ -1,0 +1,14 @@
+BriteSnow.vscode-toggle-quotes
+bung87.rails
+bung87.vscode-gemfile
+castwide.solargraph
+eamodio.gitlens
+karunamurti.haml
+mbessey.vscode-rufo
+misogi.ruby-rubocop
+mjmcloug.vscode-elixir
+mkaufman.HTMLHint
+PeterJausovec.vscode-docker
+rebornix.ruby
+sianglim.slim
+vscodevim.vim
