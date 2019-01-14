@@ -9,7 +9,7 @@ export PATH="$PATH:$HOME/.rvm/bin:/Users/grzegorz/.bin:/usr/local/bin:/usr/bin:/
 
 source $ZSH/oh-my-zsh.sh
 
-export BUNDLER_EDITOR="atom --wait"
-export EDITOR="atom --wait"
+export BUNDLER_EDITOR="code --wait"
+export EDITOR="code --wait"
 export TERM=xterm-256color
 export VIMRC="~/.vimrc"
