@@ -27,6 +27,7 @@ brew cleanup
 # Install Cask packages
 apps=(
   atom
+  docker
   github
   iterm2
   keepassxc
