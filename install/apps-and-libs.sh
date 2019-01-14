@@ -34,6 +34,7 @@ apps=(
   slack
   spectacle
   spotify
+  spotmenu
   vlc
   visual-studio-code
 )
