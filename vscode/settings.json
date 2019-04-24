@@ -11,14 +11,22 @@
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "editor.rulers": [
-      100
+      120
   ],
   "files.trimTrailingWhitespace": true,
   "[ruby]": {
-      "editor.formatOnSave": false
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "misogi.ruby-rubocop"
   },
   "gitlens.codeLens.enabled": false,
   "files.insertFinalNewline": true,
   "window.zoomLevel": 0,
   "explorer.confirmDragAndDrop": false,
-}%
+  "ruby.intellisense": false,
+  "solargraph.commandPath": "/Users/grzegorz/.rvm/gems/ruby-2.5.3/bin/solargraph",
+  "breadcrumbs.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  }
+}
