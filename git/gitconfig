@@ -4,6 +4,7 @@
 [core]
 	editor = /usr/bin/vim
 	excludesfile = ~/.gitignore_global
+	hooksPath = ~/.dotfiles/git/hooks
 [filter "lfs"]
 	required = true
 	process = git-lfs filter-process
