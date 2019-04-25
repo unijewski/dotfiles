@@ -15,7 +15,7 @@
   ],
   "files.trimTrailingWhitespace": true,
   "[ruby]": {
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.defaultFormatter": "misogi.ruby-rubocop"
   },
   "gitlens.codeLens.enabled": false,
