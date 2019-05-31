@@ -23,24 +23,3 @@ brew upgrade
 # Install Caskroom
 brew tap caskroom/cask
 brew tap caskroom/versions
-
-# Install the Homebrew packages
-apps=(
-  openssl
-  elasticsearch
-  ffmpeg
-  git
-  htop
-  imagemagick
-  mongodb
-  terminal-notifier
-  postgresql
-  python
-  redis
-  tree
-)
-
-brew install "${apps[@]}"
-
-# Remove outdated versions from the cellar
-brew cleanup
