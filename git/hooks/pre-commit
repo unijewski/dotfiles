@@ -6,7 +6,8 @@ hits = []
 
 checks = {
   '\.rb$' => ['binding\.pry', 'debugger', 'dupa'],
-  '\.haml' => ['binding\.pry', 'dupa']
+  '\.haml' => ['binding\.pry', 'dupa'],
+  '\.js' => ['debugger']
 }
 
 # Find the names of all the filenames that have been (A)dded (C)opied or (M)odified
