@@ -14,8 +14,7 @@ mechatroner.rainbow-csv
 misogi.ruby-rubocop
 mjmcloug.vscode-elixir
 mkaufman.HTMLHint
-Orta.vscode-jest
-PeterJausovec.vscode-docker
+ms-azuretools.vscode-docker
 rebornix.ruby
 sianglim.slim
 vscodevim.vim
