@@ -11,7 +11,6 @@ apps=(
   ffmpeg
   htop
   imagemagick
-  mongodb
   terminal-notifier
   postgresql
   python
