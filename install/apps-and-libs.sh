@@ -29,6 +29,7 @@ apps=(
   atom
   docker
   github
+  insomnia
   iterm2
   keepassxc
   skype
