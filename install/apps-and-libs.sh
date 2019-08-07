@@ -16,6 +16,7 @@ apps=(
   python
   redis
   tree
+  yarn
 )
 
 brew install "${apps[@]}"
