@@ -13,3 +13,5 @@ export BUNDLER_EDITOR="code --wait"
 export EDITOR="code --wait"
 export TERM=xterm-256color
 export VIMRC="~/.vimrc"
+
+alias dc=docker-compose
