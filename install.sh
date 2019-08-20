@@ -14,7 +14,7 @@ fi
 . "$DOTFILES_DIR/install/brew.sh"
 
 # Apps and packages
-. "$DOTFILES_DIR/install/app-and-libs.sh"
+. "$DOTFILES_DIR/install/apps-and-libs.sh"
 
 # Others
 . "$DOTFILES_DIR/install/iterm.sh"
