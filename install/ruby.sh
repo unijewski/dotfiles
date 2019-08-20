@@ -4,10 +4,10 @@ gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703
 
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
 
-rvm install 2.5.3
+rvm install 2.6.3
 
 source ~/.profile
 
-rvm use 2.5.3 --default
+rvm use 2.6.3 --default
 
 gem install bundler
