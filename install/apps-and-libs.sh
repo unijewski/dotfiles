@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install everything that needs to be first
-brew cask install java8
+brew cask install java
 brew install git
 
 # Install the Homebrew packages
