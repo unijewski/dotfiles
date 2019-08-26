@@ -32,6 +32,7 @@ apps=(
   insomnia
   iterm2
   keepassxc
+  macmediakeyforwarder
   skype
   slack
   spectacle

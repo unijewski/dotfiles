@@ -8,7 +8,6 @@ coconutBattery
 FileZilla
 Firefox
 Google Chrome
-MacMediaKeyForwarder
 Messenger
 Monosnap
 Muzzle
