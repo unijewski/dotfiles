@@ -14,6 +14,7 @@ apps=(
   terminal-notifier
   postgresql
   python
+  mysql
   redis
   tree
   yarn
