@@ -17,5 +17,5 @@ export VIMRC="~/.vimrc"
 alias dc=docker-compose
 
 function gfr() {
-  git reset @~ "$@" && git commit --amend --no-edit
+  git reset --soft HEAD~1 && git restore --staged .
 }
