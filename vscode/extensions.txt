@@ -8,6 +8,7 @@ dsznajder.es7-react-js-snippets
 eamodio.gitlens
 EQuimper.react-native-react-redux
 esbenp.prettier-vscode
+GrapeCity.gc-excelviewer
 karunamurti.haml
 mbessey.vscode-rufo
 mechatroner.rainbow-csv
@@ -15,6 +16,9 @@ misogi.ruby-rubocop
 mjmcloug.vscode-elixir
 mkaufman.HTMLHint
 ms-azuretools.vscode-docker
+ms-vsliveshare.vsliveshare
 rebornix.ruby
 sianglim.slim
+sporto.rails-go-to-spec
 vscodevim.vim
+wingrunr21.vscode-ruby

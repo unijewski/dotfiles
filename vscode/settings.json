@@ -23,10 +23,12 @@
   "window.zoomLevel": 0,
   "explorer.confirmDragAndDrop": false,
   "ruby.intellisense": false,
-  "solargraph.commandPath": "/Users/grzegorz/.rvm/gems/ruby-2.6.3/bin/solargraph",
+  "solargraph.commandPath": "/Users/grzegorz/.rvm/gems/ruby-2.7.1/bin/solargraph",
   "breadcrumbs.enabled": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-  }
+  },
+  "liveshare.account": "",
+  "liveshare.accountProvider": ""
 }
