@@ -1,41 +1,23 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env bash
 
-require 'English'
+script_dir=$(dirname $0)
 
-hits = []
+hook_dir="$script_dir/pre-commit.d"
 
-checks = {
-  '\.rb$' => ['binding\.pry', 'debugger', 'dupa'],
-  '\.haml' => ['binding\.pry', 'dupa'],
-  '\.js' => ['debugger']
-}
+if [[ -d $hook_dir ]]; then
+  stdin=$(cat /dev/stdin)
 
-# Find the names of all the filenames that have been (A)dded (C)opied or (M)odified
-filenames = `git diff --cached --name-only --diff-filter=ACM`.split("\n")
+  for hook in $hook_dir/*; do
+    filename="$(basename $hook)"
+    echo "Running $filename hook"
+    echo "$stdin" | $hook "$@"
 
-filenames.each do |filename|
-  # Perform special checks for _spec filenames (rspec tests)
-  checks.each do |filename_pattern, patterns|
-    next unless filename.match?(filename_pattern)
+    exit_code=$?
 
-    patterns.each do |contents_pattern|
-      results = `git diff --cached  #{filename} | grep "^\+[^+]" | grep "#{contents_pattern}"`
-                .split("\n")
-                .map { |result| result.sub(/^\+[\s\t]*/, '') }
+    if [ $exit_code != 0 ]; then
+      exit $exit_code
+    fi
+  done
+fi
 
-      next if $CHILD_STATUS != 0
-
-      # Add the relevant change with line number to the hits array
-      results.each do |keyword|
-        hits << "#{filename}:" + `grep -n '#{keyword}' #{filename}`.sub(/:\s+/, ' ').chomp
-      end
-    end
-  end
-end
-
-if hits.any?
-  puts "\e[33m>>> Please remove the following problems from these files before committing\e[0m"
-  puts hits.join("\n")
-end
-
-exit 1 if hits.any?
+exit 0

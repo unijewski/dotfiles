@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -
+
+git diff --name-only --cached --diff-filter=ACMRTB | grep -E '.(rake|rb)$' | xargs bundle exec rubocop --force-exclusion
