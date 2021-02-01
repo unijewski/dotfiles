@@ -5,7 +5,7 @@ ZSH_THEME="unijewski"
 
 plugins=(git bundler osx rails rake ruby rvm)
 
-export PATH="$PATH:$HOME/.rvm/bin:/Users/grzegorz/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$PATH:$HOME/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 source $ZSH/oh-my-zsh.sh
 
