@@ -3,7 +3,7 @@ export ZSH=/Users/grzegorz/.oh-my-zsh
 
 ZSH_THEME="unijewski"
 
-plugins=(git bundler osx rake ruby rvm)
+plugins=(git bundler osx rails rake ruby rvm)
 
 export PATH="$PATH:$HOME/.rvm/bin:/Users/grzegorz/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
