@@ -2,4 +2,8 @@
 
 set -
 
-git diff --name-only --cached --diff-filter=ACMRTB | grep -E '.(rake|rb)$' | xargs bundle exec rubocop --force-exclusion
+run_linter() {
+  git diff --name-only --cached --diff-filter=ACMRTB | grep -E '.(rake|rb)$' | xargs bundle exec rubocop --force-exclusion
+}
+
+run_linter || echo "Linter failed"
