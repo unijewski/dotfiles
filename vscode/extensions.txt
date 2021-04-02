@@ -7,7 +7,7 @@ dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
 EQuimper.react-native-react-redux
-esbenp.prettier-vscode
+GitHub.vscode-pull-request-github
 GrapeCity.gc-excelviewer
 karunamurti.haml
 mbessey.vscode-rufo
