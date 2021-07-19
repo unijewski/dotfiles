@@ -26,5 +26,6 @@
   "breadcrumbs.enabled": true,
   "liveshare.account": "",
   "liveshare.accountProvider": "",
-  "githubPullRequests.fileListLayout": "flat"
+  "githubPullRequests.fileListLayout": "flat",
+  "security.workspace.trust.untrustedFiles": "open"
 }
