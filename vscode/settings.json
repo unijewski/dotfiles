@@ -21,7 +21,6 @@
   "gitlens.codeLens.enabled": false,
   "files.insertFinalNewline": true,
   "explorer.confirmDragAndDrop": false,
-  "ruby.intellisense": false,
   "solargraph.commandPath": "/Users/grzegorz.unijewski/.rvm/gems/ruby-2.7.2/bin/solargraph",
   "breadcrumbs.enabled": true,
   "liveshare.account": "",
