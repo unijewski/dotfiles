@@ -9,10 +9,8 @@ FileZilla
 Firefox
 Google Chrome
 Messenger
-Monosnap
 Muzzle
 Scroll Reverser
-Spark
 TeamViewer
 The Unarchiver
 WhatsApp
