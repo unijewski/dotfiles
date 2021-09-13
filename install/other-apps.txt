@@ -3,3 +3,4 @@ Adobe Acrobat Reader DC
 Be Focused
 FileZilla
 The Unarchiver
+UniFi Controller
