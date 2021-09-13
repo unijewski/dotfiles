@@ -1,16 +1,5 @@
 Adium
 Adobe Acrobat Reader DC
-AppCleaner
-Bartender
 Be Focused
-calibre
-coconutBattery
 FileZilla
-Firefox
-Google Chrome
-Messenger
-Muzzle
-Scroll Reverser
-TeamViewer
 The Unarchiver
-WhatsApp

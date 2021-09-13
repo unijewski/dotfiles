@@ -27,20 +27,31 @@ brew cleanup
 
 # Install Cask packages
 apps=(
-  atom
+  appcleaner
+  bartender
+  calibre
+  coconutbattery
   docker
+  firefox
   github
+  google-chrome
   insomnia
   iterm2
   keepassxc
   macmediakeyforwarder
+  messenger
+  muzzle
+  notion
+  scroll-reverser
   skype
   slack
   spectacle
   spotify
   spotmenu
+  teamviewer
   vlc
   visual-studio-code
+  whatsapp
 )
 
-brew cask install "${apps[@]}"
+brew install --cask "${apps[@]}"
