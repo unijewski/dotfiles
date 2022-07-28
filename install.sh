@@ -20,7 +20,6 @@ fi
 . "$DOTFILES_DIR/install/iterm.sh"
 . "$DOTFILES_DIR/install/zsh.sh"
 . "$DOTFILES_DIR/install/ruby.sh"
-. "$DOTFILES_DIR/install/atom.sh"
 . "$DOTFILES_DIR/install/vim.sh"
 . "$DOTFILES_DIR/install/vscode.sh"
 
