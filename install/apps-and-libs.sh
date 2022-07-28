@@ -18,6 +18,7 @@ apps=(
   redis
   tree
   yarn
+  zsh-autosuggestions
 )
 
 brew install "${apps[@]}"

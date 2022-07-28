@@ -6,9 +6,9 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 plugins=(git bundler macos rails ruby docker-compose)
 
-export PATH="$PATH:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin"
-
 source $ZSH/oh-my-zsh.sh
+
+export PATH="$PATH:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin"
 
 export BUNDLER_EDITOR="code --wait"
 export EDITOR="code --wait"
@@ -24,3 +24,5 @@ alias dm=docker-machine
 gfr() {
   git reset --soft HEAD~1 && git restore --staged .
 }
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
