@@ -4,10 +4,10 @@ brew install gpg2
 
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
 
-rvm install 2.6.5
+rvm install 3.1.2
 
 source ~/.profile
 
-rvm use 2.6.5 --default
+rvm use 3.1.2 --default
 
 gem install bundler
