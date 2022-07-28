@@ -21,10 +21,12 @@
   "gitlens.codeLens.enabled": false,
   "files.insertFinalNewline": true,
   "explorer.confirmDragAndDrop": false,
-  "solargraph.commandPath": "/Users/grzegorz/.rvm/gems/ruby-2.7.2/bin/solargraph",
+  "solargraph.commandPath": "/Users/grzegorz/.rvm/gems/ruby-3.0.3/bin/solargraph",
   "breadcrumbs.enabled": true,
   "liveshare.account": "",
   "liveshare.accountProvider": "",
   "githubPullRequests.fileListLayout": "flat",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "json.maxItemsComputed": 10000,
+  "editor.foldingMaximumRegions": 10000
 }
