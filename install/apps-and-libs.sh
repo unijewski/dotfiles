@@ -7,7 +7,6 @@ brew install git
 # Install the Homebrew packages
 apps=(
   openssl
-  elasticsearch
   ffmpeg
   htop
   imagemagick
