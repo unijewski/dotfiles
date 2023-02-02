@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Install everything that needs to be first
-brew cask install java
+brew install java
+sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
 brew install git
 
 # Install the Homebrew packages
@@ -45,13 +47,13 @@ apps=(
   scroll-reverser
   skype
   slack
-  spectacle
   spotify
   spotmenu
+  rectangle
   teamviewer
   vlc
   visual-studio-code
   whatsapp
 )
 
-brew install --cask "${apps[@]}"
+brew install "${apps[@]}" --cask

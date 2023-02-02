@@ -20,7 +20,3 @@ brew update
 
 # Upgrade any already-installed formulas
 brew upgrade
-
-# Install Caskroom
-brew tap homebrew/cask
-brew tap homebrew/cask-versions
