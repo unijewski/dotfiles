@@ -22,5 +22,5 @@ brew update
 brew upgrade
 
 # Install Caskroom
-brew tap caskroom/cask
-brew tap caskroom/versions
+brew tap homebrew/cask
+brew tap homebrew/cask-versions
