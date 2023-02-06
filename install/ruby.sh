@@ -6,7 +6,7 @@ brew install gpg2
 
 rvm install 3.1.2
 
-source ~/.profile
+source ~/.rvm/scripts/rvm
 
 rvm use 3.1.2 --default
 
