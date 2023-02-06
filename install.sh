@@ -22,9 +22,6 @@ fi
 . "$DOTFILES_DIR/install/ruby.sh"
 . "$DOTFILES_DIR/install/vim.sh"
 . "$DOTFILES_DIR/install/vscode.sh"
-
-# Git symlinks
-ln -sfv "$DOTFILES_DIR/git/gitconfig" "$HOME/.gitconfig"
-ln -sfv "$DOTFILES_DIR/git/gitignore_global" "$HOME/.gitignore_global"
+. "$DOTFILES_DIR/install/git.sh"
 
 echo "Done!"
