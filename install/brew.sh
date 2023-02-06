@@ -1,10 +1,7 @@
-#!/bin/bash
-
 # Install Homebrew and some of the common dependencies needed/desired for software development
 
 # Ask for the administrator password upfront
 sudo -v
-
 
 # Check for Homebrew and install it if missing
 if test ! $( which brew )
