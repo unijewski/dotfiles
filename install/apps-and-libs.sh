@@ -5,7 +5,7 @@ sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtua
 brew install git
 
 # Install the Homebrew packages
-apps=(
+libs=(
   openssl
   ffmpeg
   htop
@@ -20,7 +20,7 @@ apps=(
   zsh-autosuggestions
 )
 
-brew install "${apps[@]}"
+brew install "${libs[@]}"
 
 # Remove outdated versions from the cellar
 brew cleanup
