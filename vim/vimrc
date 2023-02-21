@@ -1,27 +1,19 @@
-set nocompatible                                      " be iMproved, required
-filetype off                                          " required
-
 " plugins
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-fugitive'                           " Git wrapper
-Plugin 'kien/ctrlp.vim'
-Plugin 'mileszs/ack.vim'                              " search tool
-Plugin 'scrooloose/nerdtree'
-Plugin 'itchyny/lightline.vim'                        " status line
-Plugin 'tpope/vim-surround'                           " quotes, brackets etc.
-Plugin 'shougo/neocomplete.vim'                       " keyword completion
-Plugin 'airblade/vim-gitgutter'
-Plugin 'scrooloose/nerdcommenter'                     " comments
-Plugin 'majutsushi/tagbar'                            " structure overview
-Plugin 'terryma/vim-multiple-cursors'                 " faster selecting
-Plugin 'mxw/vim-jsx'
-Plugin 'tpope/vim-eunuch'                             " shell commands
-
-call vundle#end()                                     " required
-filetype plugin indent on                             " required
+call plug#begin('~/.vim/plugged')
+Plug 'tpope/vim-fugitive'                             " Git wrapper
+Plug 'kien/ctrlp.vim'
+Plug 'mileszs/ack.vim'                                " search tool
+Plug 'scrooloose/nerdtree'
+Plug 'itchyny/lightline.vim'                          " status line
+Plug 'tpope/vim-surround'                             " quotes, brackets etc.
+Plug 'shougo/neocomplete.vim'                         " keyword completion
+Plug 'airblade/vim-gitgutter'
+Plug 'scrooloose/nerdcommenter'                       " comments
+Plug 'majutsushi/tagbar'                              " structure overview
+Plug 'terryma/vim-multiple-cursors'                   " faster selecting
+Plug 'mxw/vim-jsx'
+Plug 'tpope/vim-eunuch'                               " shell commands
+call plug#end()
 
 " general
 set encoding=utf-8
