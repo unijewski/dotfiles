@@ -28,5 +28,6 @@
   "githubPullRequests.fileListLayout": "flat",
   "security.workspace.trust.untrustedFiles": "open",
   "json.maxItemsComputed": 10000,
-  "editor.foldingMaximumRegions": 10000
+  "editor.foldingMaximumRegions": 10000,
+  "redhat.telemetry.enabled": false
 }
