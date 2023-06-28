@@ -30,6 +30,7 @@ apps=(
   appcleaner
   bartender
   calibre
+  clipy
   coconutbattery
   docker
   firefox
