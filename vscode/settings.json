@@ -29,5 +29,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "json.maxItemsComputed": 10000,
   "editor.foldingMaximumRegions": 10000,
-  "redhat.telemetry.enabled": false
+  "redhat.telemetry.enabled": false,
+  "githubPullRequests.pullBranch": "never",
+  "editor.inlineSuggest.enabled": true
 }
