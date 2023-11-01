@@ -4,9 +4,9 @@ brew install gpg2
 
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
 
-rvm install 3.1.2
-
 source ~/.rvm/scripts/rvm
+
+rvm install 3.1.2
 
 rvm use 3.1.2 --default
 
