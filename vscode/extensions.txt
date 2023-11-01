@@ -1,4 +1,5 @@
 42Crunch.vscode-openapi
+adpyke.vscode-sql-formatter
 BriteSnow.vscode-toggle-quotes
 bung87.vscode-gemfile
 castwide.solargraph
@@ -6,12 +7,16 @@ ckolkman.vscode-postgres
 dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
+formulahendry.vscode-mysql
+GitHub.codespaces
+GitHub.copilot
+GitHub.copilot-chat
 GitHub.vscode-pull-request-github
 GrapeCity.gc-excelviewer
+HTMLHint.vscode-htmlhint
 karunamurti.haml
 mechatroner.rainbow-csv
 misogi.ruby-rubocop
-mkaufman.HTMLHint
 mohsen1.prettify-json
 ms-azuretools.vscode-docker
 ms-vsliveshare.vsliveshare
