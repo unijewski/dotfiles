@@ -8,7 +8,7 @@ plugins=(git bundler macos rails ruby docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH="$PATH:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin"
+export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH"
 
 export BUNDLER_EDITOR="code --wait"
 export EDITOR="code --wait"
