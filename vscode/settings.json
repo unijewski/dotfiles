@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Monokai",
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
   "vim.insertModeKeyBindings": [
@@ -21,7 +20,7 @@
   "gitlens.codeLens.enabled": false,
   "files.insertFinalNewline": true,
   "explorer.confirmDragAndDrop": false,
-  "solargraph.commandPath": "/Users/grzegorz/.rvm/gems/ruby-3.0.3/bin/solargraph",
+  "solargraph.commandPath": "/Users/grzegorz/.rvm/gems/ruby-3.2.2/bin/solargraph",
   "breadcrumbs.enabled": true,
   "liveshare.account": "",
   "liveshare.accountProvider": "",
@@ -31,5 +30,29 @@
   "editor.foldingMaximumRegions": 10000,
   "redhat.telemetry.enabled": false,
   "githubPullRequests.pullBranch": "never",
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
+  "workbench.iconTheme": "Monokai Classic Icons",
+  "ruby.rubocop.executePath": "/Users/grzegorz/.rvm/gems/ruby-3.2.2/bin/",
+  "workbench.colorTheme": "Monokai",
+  "rubyLsp.formatter": "rubocop",
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": true,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": false,
+    "completion": true,
+    "codeLens": true,
+    "definition": true,
+    "workspaceSymbol": true,
+    "references": true
+  },
+  "rubyLsp.rubyVersionManager": "rvm"
 }

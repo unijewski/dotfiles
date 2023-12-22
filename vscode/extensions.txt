@@ -20,9 +20,8 @@ misogi.ruby-rubocop
 mohsen1.prettify-json
 ms-azuretools.vscode-docker
 ms-vsliveshare.vsliveshare
-rebornix.ruby
 redhat.vscode-yaml
+Shopify.ruby-lsp
 sianglim.slim
 sporto.rails-go-to-spec
 vscodevim.vim
-wingrunr21.vscode-ruby
