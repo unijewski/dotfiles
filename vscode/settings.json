@@ -15,7 +15,7 @@
   "files.trimTrailingWhitespace": true,
   "[ruby]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": "misogi.ruby-rubocop"
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
   },
   "gitlens.codeLens.enabled": false,
   "files.insertFinalNewline": true,
