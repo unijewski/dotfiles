@@ -6,15 +6,15 @@ brew install git
 
 # Install the Homebrew packages
 libs=(
-  openssl
   ffmpeg
   htop
   imagemagick
-  terminal-notifier
+  mysql
+  openssl
   postgresql
   python
-  mysql
   redis
+  terminal-notifier
   tree
   yarn
   zsh-autosuggestions
@@ -28,7 +28,6 @@ brew cleanup
 # Install Cask packages
 apps=(
   appcleaner
-  bartender
   calibre
   clipy
   coconutbattery
@@ -36,6 +35,7 @@ apps=(
   firefox
   github
   google-chrome
+  hiddenbar
   insomnia
   iterm2
   keepassxc
@@ -43,15 +43,15 @@ apps=(
   messenger
   muzzle
   notion
+  rectangle
   scroll-reverser
   skype
   slack
   spotify
   spotmenu
-  rectangle
   teamviewer
-  vlc
   visual-studio-code
+  vlc
   whatsapp
 )
 
