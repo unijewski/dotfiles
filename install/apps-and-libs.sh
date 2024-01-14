@@ -6,11 +6,11 @@ brew install git
 
 # Install the Homebrew packages
 libs=(
+  openssl
   ffmpeg
   htop
   imagemagick
   mysql
-  openssl
   postgresql
   python
   redis
