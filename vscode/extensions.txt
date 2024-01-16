@@ -1,7 +1,6 @@
 42Crunch.vscode-openapi
 adpyke.vscode-sql-formatter
 BriteSnow.vscode-toggle-quotes
-bung87.vscode-gemfile
 castwide.solargraph
 ckolkman.vscode-postgres
 dbaeumer.vscode-eslint
