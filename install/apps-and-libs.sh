@@ -56,4 +56,4 @@ apps=(
   whatsapp
 )
 
-brew install "${apps[@]}" --cask
+brew install "${apps[@]}" --cask --force
