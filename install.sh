@@ -13,12 +13,14 @@ fi
 # Package managers
 . "$DOTFILES_DIR/install/brew.sh"
 
+# Shell
+. "$DOTFILES_DIR/install/zsh.sh"
+
 # Apps and packages
 . "$DOTFILES_DIR/install/apps-and-libs.sh"
 
 # Others
 . "$DOTFILES_DIR/install/iterm.sh"
-. "$DOTFILES_DIR/install/zsh.sh"
 . "$DOTFILES_DIR/install/ruby.sh"
 . "$DOTFILES_DIR/install/vim.sh"
 . "$DOTFILES_DIR/install/vscode.sh"
