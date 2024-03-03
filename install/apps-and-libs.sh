@@ -31,6 +31,7 @@ apps=(
   calibre
   clipy
   coconutbattery
+  discord
   docker
   firefox
   github
