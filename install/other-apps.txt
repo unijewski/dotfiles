@@ -1,5 +1,6 @@
 Adobe Acrobat Reader DC
 Be Focused
 FileZilla
+NetSpot
 The Unarchiver
-UniFi Controller
+UniFi
