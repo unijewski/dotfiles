@@ -27,6 +27,7 @@ brew cleanup
 
 # Install Cask packages
 apps=(
+  adium
   appcleaner
   calibre
   clipy
