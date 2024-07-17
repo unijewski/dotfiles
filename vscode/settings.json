@@ -54,5 +54,9 @@
     "workspaceSymbol": true,
     "references": true
   },
-  "rubyLsp.rubyVersionManager": "rvm"
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "rvm"
+  },
+  "rubyLsp.rubyExecutablePath": "/Users/grzegorz/.rvm/rubies/ruby-3.2.2/bin/ruby",
+  "github.copilot.editor.enableAutoCompletions": true
 }
