@@ -20,7 +20,7 @@
   "gitlens.codeLens.enabled": false,
   "files.insertFinalNewline": true,
   "explorer.confirmDragAndDrop": false,
-  "solargraph.commandPath": "/Users/grzegorz/.rvm/gems/ruby-3.2.2/bin/solargraph",
+  "solargraph.commandPath": "/Users/grzegorz/.rvm/gems/ruby-3.3.4/bin/solargraph",
   "breadcrumbs.enabled": true,
   "liveshare.account": "",
   "liveshare.accountProvider": "",
@@ -31,8 +31,7 @@
   "redhat.telemetry.enabled": false,
   "githubPullRequests.pullBranch": "never",
   "editor.inlineSuggest.enabled": true,
-  "workbench.iconTheme": "Monokai Classic Icons",
-  "ruby.rubocop.executePath": "/Users/grzegorz/.rvm/gems/ruby-3.2.2/bin/",
+  "ruby.rubocop.executePath": "/Users/grzegorz/.rvm/gems/ruby-3.3.4/bin/",
   "workbench.colorTheme": "Monokai",
   "rubyLsp.formatter": "rubocop",
   "rubyLsp.enabledFeatures": {
@@ -57,6 +56,6 @@
   "rubyLsp.rubyVersionManager": {
     "identifier": "rvm"
   },
-  "rubyLsp.rubyExecutablePath": "/Users/grzegorz/.rvm/rubies/ruby-3.2.2/bin/ruby",
+  "rubyLsp.rubyExecutablePath": "/Users/grzegorz/.rvm/rubies/ruby-3.3.4/bin/ruby",
   "github.copilot.editor.enableAutoCompletions": true
 }
