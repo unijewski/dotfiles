@@ -44,6 +44,7 @@ apps=(
   messenger
   muzzle
   notion
+  postman
   rectangle
   scroll-reverser
   slack
