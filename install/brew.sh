@@ -4,10 +4,15 @@
 sudo -v
 
 # Check for Homebrew and install it if missing
-if test ! $( which brew )
-then
+if test ! $(which brew); then
   echo "Installing Homebrew..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+  # Reload .zshrc if using zsh to make brew commands available
+  if test $(which zsh); then
+    echo "Reloading .zshrc to update PATH with Homebrew..."
+    source ~/.zshrc
+  fi
 fi
 
 brew tap homebrew/services
