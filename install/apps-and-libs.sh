@@ -50,7 +50,6 @@ apps=(
   skype
   slack
   spotify
-  spotmenu
   teamviewer
   visual-studio-code
   vlc
