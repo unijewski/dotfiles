@@ -38,7 +38,6 @@ apps=(
   github
   google-chrome
   hiddenbar
-  insomnia
   iterm2
   keepassxc
   macmediakeyforwarder
@@ -47,7 +46,6 @@ apps=(
   notion
   rectangle
   scroll-reverser
-  skype
   slack
   spotify
   teamviewer
