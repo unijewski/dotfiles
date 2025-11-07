@@ -1,6 +1,6 @@
 [user]
 	name = Grzegorz Unijewski
-	email = grzegorz@unijewski.pl
+	email = grzegorz@example.com
 [core]
 	editor = /usr/bin/vim
 	excludesfile = ~/.gitignore_global
