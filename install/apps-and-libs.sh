@@ -40,8 +40,6 @@ apps=(
   hiddenbar
   iterm2
   keepassxc
-  macmediakeyforwarder
-  messenger
   muzzle
   notion
   postman
